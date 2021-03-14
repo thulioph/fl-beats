@@ -1,0 +1,9 @@
+---
+id: 002
+title: Conga Disco Gospel
+description: Adding vocals and another instruments to see what happens
+beat:
+  url: thulio-ph/conga-disco-gospel # browser URL
+  trackId: 605204709 # from share button
+  date: 2021-03-08T14:06:09.440Z # ISO
+  midi: http://my-midilink.com/808
