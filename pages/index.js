@@ -46,8 +46,8 @@ export default function Home({ beats }) {
   )
 }
 
-export async function getStaticProps(context) {
-  const beats = await getBeats()
+export function getStaticProps(context) {
+  const beats = getBeats()
 
   return {
     props: {

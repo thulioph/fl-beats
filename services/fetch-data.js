@@ -1,18 +1,13 @@
-const getUrl = (env) => {
-  if (env !== 'production') {
-    return 'http://localhost:3000/api/hello'
+import { getFilesByDir, readYamlFiles } from './file-manager'
+
+export const getBeats = () => {
+  try {
+    const directory = 'public/beats'
+    const files = getFilesByDir(directory)
+    const data = readYamlFiles(files)
+
+    return data
+  } catch (error) {
+    console.error('Houston, we have a problem!', error)
   }
-
-  return 'https://fl-beats-laf3hgl3j-thulioph.vercel.app/api/hello'
-}
-
-export const getBeats = async () => {
-  const apiUrl = getUrl(process.env.NODE_ENV)
-
-  const res = await fetch(apiUrl)
-  const data = await res.json()
-
-  if (!data) return []
-
-  return data
 }
