@@ -1,6 +1,6 @@
 # FL Beats 🎹
 
-A compilation with all beats I'm creating can be found at [www.thulioph.com/fl-beats](https://www.thulioph.com/fl-beats).
+A compilation with all beats I'm creating can be found at [https://flbeats.vercel.app](https://flbeats.vercel.app/)
 
 ## Getting Start
 
