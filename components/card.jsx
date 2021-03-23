@@ -28,8 +28,8 @@ const Card = (props) => {
         
         <p className={styles.description}>
           <code className={styles.code}>
-            <a href={beat.midi} target="_blank" title="Download MIDI file">
-              .MIDI file
+            <a href={beat.midi} target="_blank" title="Download project file">
+              project file
             </a>
           </code>
         </p>
