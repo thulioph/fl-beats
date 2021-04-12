@@ -5,4 +5,4 @@ description: Adding vocals and another instruments to see what happens
 beat:
   url: thulio-ph/conga-disco-gospel # browser URL
   trackId: 605204709 # from share button
-  midi: http://my-midilink.com/808
+  midi:

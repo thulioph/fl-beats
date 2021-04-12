@@ -5,4 +5,4 @@ description: Hello World using 808 kits and some voices along with noises.
 beat:
   url: thulio-ph/808-hello-world # browser URL
   trackId: 1014686266 # from share button
-  midi: https://www.dropbox.com/s/e79rgy7g73hkwep/808-hello-world.flp?dl=0
+  midi: http://bit.ly/808-hello-world

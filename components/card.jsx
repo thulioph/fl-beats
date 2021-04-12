@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styles from '../styles/Home.module.css'
+import ShouldRender from '../components/shouldrender'
 
 const Card = (props) => {
   const { id, title, description, beat  } = props
@@ -27,11 +28,13 @@ const Card = (props) => {
         </p>
         
         <p className={styles.description}>
-          <code className={styles.code}>
-            <a href={beat.midi} target="_blank" title="Download project file">
-              project file
-            </a>
-          </code>
+          <ShouldRender when={!!beat.midi}>
+            <code className={styles.code}>
+              <a href={beat.midi} target="_blank" title="Download project file">
+                project file
+              </a>
+            </code>
+          </ShouldRender>
         </p>
       </aside>
     </React.Fragment>

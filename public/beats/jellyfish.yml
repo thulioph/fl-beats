@@ -5,4 +5,4 @@ description: First time in my life playing with fruit loops
 beat:
   url: thulio-ph/jellyfish # browser URL
   trackId: 605186055 # from share button
-  midi: http://my-midilink.com/jellyfish
+  midi:
